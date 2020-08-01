@@ -1,0 +1,42 @@
+<div class='container'>
+    <div class='submit'>
+        <table>
+            <caption>You submitted:</caption>
+            <tr>
+                <th>Street</th>
+                <th>street 2</th>
+                <th>City</th>
+                <th>State</th>
+                <th>zip</th>
+            </tr>
+            <tr>
+                <td>{{street}}</td>
+                <td>{{street2}}</td>
+                <td>{{city}}</td>
+                <td>{{state}}</td>
+                <td>{{zip}}</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class='result'>
+        <table>
+            <caption>The upcoming election on your address:</caption>
+
+            <tr>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Type</th>
+                <th>Pulling Place</th>
+            </tr>
+            <tr>
+                <td>{{description}}</td>
+                <td>{{date}}</td>
+                <td>{{type}}</td>
+                <td>
+                    <a href={{pullingPlaceUrl}}>Check out here.</td>
+            </tr>
+        </table>
+    </div>
+    <button class='search-button' onclick="history.back()">Search again</button>
+</div>
