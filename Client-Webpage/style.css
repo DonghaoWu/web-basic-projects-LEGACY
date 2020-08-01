@@ -1,0 +1,109 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding-top: 1px;
+  background-color: #343a40;
+}
+.primary_bg {
+  background-color: #343a40;
+}
+#showcase {
+  margin-top: 65px;
+  padding-top: 0px;
+}
+.navbar {
+  box-shadow: 2px 2px 5px grey;
+  opacity: 0.9;
+  background-color: #fff;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  padding-right: 1.4rem;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-image-1 {
+  background: url(./pictures/dimsum.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel-image-2 {
+  background: url(./pictures/korean.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.carousel-image-3 {
+  background: url(./pictures/indian.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .mb-resp {
+    margin-bottom: 1rem;
+  }
+}
+#newsLetter {
+  margin: 5px 0 5px 0;
+}
+
+#characteristics {
+  padding-top: 20px;
+}
+
+#foodForToday {
+  padding-top: 200px;
+  background-image: url(./pictures/candy.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  padding: 0;
+
+  min-height: 500px;
+}
+
+.dark-overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 500px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.home-inner .row {
+  padding-top: 50px;
+}
+
+.home-inner form {
+  height: 110px;
+}
+
+.question_title {
+  color: white;
+}
+.card_margin_bottom {
+  margin-bottom: 30px;
+}
+
+.pick_header {
+  position: relative;
+  top: 80px;
+}
+
+#question_pic_holder {
+  width: 290px;
+  height: 200px;
+  margin: 10px;
+  background-color: white;
+}

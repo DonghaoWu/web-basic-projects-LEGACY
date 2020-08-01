@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Client Page</title>
+  </head>
+  <body id="home">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top py-2">
+      <div class="container">
+        <a href="#home" class="navbar-brand">
+          <h3 class="d-inline align-middle">Asian Foods In NYC</h3>
+        </a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item">
+              <a href="#newsLetter" class="nav-link">Characteristics</a>
+            </li>
+            <li class="nav-item">
+              <a href="#foodForToday" class="nav-link">Pick One</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- carousel -->
+    <section id="showcase">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-image-1 active">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                <h1 class="display-3 food_name">Chinese Cuisine</h1>
+                <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-image-2">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                <h1 class="display-3 food_name">Korean Cuisine</h1>
+                <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-image-3">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                <h1 class="display-3 food_name">Indian Cuisine</h1>
+                <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+        <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Form -->
+    <section id="newsLetter" class="bg-dark text-white py-2">
+      <div class="container">
+        <form>
+          <div class="row">
+            <div class="col-md-4">
+              <input
+                type="text"
+                class="form-control form-control-lg mb-resp"
+                placeholder="Please enter your Username"
+                required
+              />
+            </div>
+            <div class="col-md-4">
+              <input
+                type="email"
+                class="form-control form-control-lg mb-resp"
+                placeholder="Please enter your Email"
+                required
+              />
+            </div>
+            <div class="col-md-4">
+              <button class="btn btn-primary btn-lg btn-block" type="submit">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Characteristics -->
+    <section id="characteristics" class="text-center bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0">
+                    <div
+                      href="#collapse1"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                    >
+                      Chinese cuisine
+                    </div>
+                  </h5>
+                </div>
+                <div id="collapse1" class="collapse show">
+                  <div class="card-body">
+                    Chinese cuisine is an important part of Chinese culture,
+                    which includes cuisine originating from the diverse regions
+                    of China, as well as from Chinese people in other parts of
+                    the world. Because of the Chinese diaspora and historical
+                    power of the country, Chinese cuisine has influenced many
+                    other cuisines in Asia, with modifications made to cater to
+                    local palates. Chinese food staples such as rice, soy sauce,
+                    noodles, tea, and tofu, and utensils such as chopsticks and
+                    the wok, can now be found worldwide. The preference for
+                    seasoning and cooking techniques of Chinese provinces depend
+                    on differences in historical background and ethnic groups.
+                    Geographic features including mountains, rivers, forests and
+                    deserts also have a strong effect on the local available
+                    ingredients, considering that the climate of China varies
+                    from tropical in the south to subarctic in the northeast.
+                    Imperial, royal and noble preference also plays a role in
+                    the change of Chinese cuisines. Because of imperial
+                    expansion and trading, ingredients and cooking techniques
+                    from other cultures are integrated into Chinese cuisines
+                    over time.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0">
+                    <div
+                      href="#collapse2"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                    >
+                      Korean cuisine
+                    </div>
+                  </h5>
+                </div>
+                <div id="collapse2" class="collapse">
+                  <div class="card-body">
+                    Korean cuisine is the customary cooking traditions and
+                    practices of the culinary arts of Korea. Korean cuisine has
+                    evolved through centuries of social and political change.
+                    Originating from ancient agricultural and nomadic traditions
+                    in Korea and southern Manchuria, Korean cuisine has evolved
+                    through a complex interaction of the natural environment and
+                    different cultural trends. Korean cuisine is largely based
+                    on rice, vegetables, and meats. Traditional Korean meals are
+                    named for the number of side dishes (반찬; 飯饌; banchan)
+                    that accompany steam-cooked short-grain rice. Kimchi is
+                    served at nearly every meal. Commonly used ingredients
+                    include sesame oil, doenjang (fermented bean paste), soy
+                    sauce, salt, garlic, ginger, pepper flakes, gochujang
+                    (fermented red chili paste) and napa cabbage.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0">
+                    <div
+                      href="#collapse3"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                    >
+                      <i></i>Indian cuisine
+                    </div>
+                  </h5>
+                </div>
+                <div id="collapse3" class="collapse">
+                  <div class="card-body">
+                    Indian cuisine consists of a wide variety of regional and
+                    traditional cuisines native to the Indian subcontinent.
+                    Given the range of diversity in soil type, climate, culture,
+                    ethnic groups, and occupations, these cuisines vary
+                    substantially from each other and use locally available
+                    spices, herbs, vegetables, and fruits. Indian food is also
+                    heavily influenced by religion, in particular Hindu,
+                    cultural choices and traditions. The cuisine is also
+                    influenced by centuries of Islamic rule, particularly the
+                    Mughal rule. Samosas and pilafs can be regarded as examples.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- foodForToday -->
+    <section id="foodForToday">
+      <div class="dark-overlay">
+        <div class="home-inner container">
+          <div class="row">
+            <div class="col-lg-8 d-none d-lg-block text-white">
+              <h1 class="display-4 pick_header">
+                Pick Your Food In Random Today!
+              </h1>
+            </div>
+            <div class="col-lg-4">
+              <div class="card primary_bg text-center card-form">
+                <div class="card-body" id="card">
+                  <h3 class="question_title card_margin_bottom">
+                    No idea what to eat Today?
+                  </h3>
+                  <button
+                    id="random_button"
+                    type="button"
+                    name="button"
+                    class="btn btn-outline-light btn-block"
+                  >
+                    KEEP CLICKING HERE !!!
+                  </button>
+                  <img
+                    id="question_pic_holder"
+                    src="./pictures/question1.png"
+                    alt="question mark"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer id="main-footer" class="py-1 primary_bg text-white">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-6 ml-auto">
+            <p class="lead">Copyright &copy; 2019</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
